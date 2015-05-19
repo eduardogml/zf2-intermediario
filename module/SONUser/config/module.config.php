@@ -54,9 +54,9 @@ return array(
                 ),
             ),
         ),
-    ),
-    #configuração das data-fixture
-    'data-fixture' => array(
-        'SONUser_fixture' => __DIR__.'/../src/SONUser/Fixture'
+        #configuração das data-fixture
+        'fixture' => array(
+            'SONUser_fixture' => __DIR__.'/../src/SONUser/Fixture'
+        ),
     ),
 );
